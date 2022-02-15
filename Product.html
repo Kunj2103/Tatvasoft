@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product page</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mulish:wght@200&family=Roboto+Condensed:wght@300&display=swap"
+    rel="stylesheet">
+  <script src="jquery-3.6.0.js"></script>
+
+  <script src="https://kit.fontawesome.com/d9db3552f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="left_header">
+        <a href="#">
+          <img src="\images\site-logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="right-header">
+        <ul class="right-list">
+          <li><a href=""> Login </a></li>
+          <li>|</li>
+          <li><a href=""> Register </a></li>
+          <li class="cart">
+            <a href="#"><i class="fas fa-cart-plus"> 0</i> Cart</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <navbar>
+      <div class="search-header">
+        <div class="input-box">
+          <input type="text" class="search-input-text" id="header-search-input" placeholder="What are you looking for..." />
+        </div>
+        <div class="sbutton">
+          <button type="submit"><i class="fas fa-search"></i> Search</button>
+        </div>
+        <div class="cbutton">
+          <button type="submit" class="cbtn">Cancel</buton>
+        </div>
+      </div>
+    </navbar>
+    </header>
+    <main class="register-container">
+        <div class="register-heading">
+          <strong>Product Page</strong>
+        </div>
+
+        <div class="add-product container">
+        <div class="input-box">
+            <input type="text" class="search-input-text" id="header-search-input" placeholder="Search..." />
+          </div>
+          <div class="cbutton">
+            <button type="submit" class="cbtn">Add Product</buton>
+          </div>
+        </div>
+
+        <div class="product-table container">
+            <table class="table text-center">
+                <thead>
+                  <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">title</th>
+                    <th scope="col">Data Source</th>
+                    <th scope="col">Query</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td><button class="btn btn-outline-success">Edit</button></td>
+                    <td><button class="btn btn-outline-danger">Delete</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td><button class="btn btn-outline-success">Edit</button></td>
+                    <td><button class="btn btn-outline-danger">Delete</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td >Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
+                    <td><button class="btn btn-outline-success">Edit</button></td>
+                    <td><button class="btn btn-outline-danger">Delete</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td >Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
+                    <td><button class="btn btn-outline-success">Edit</button></td>
+                    <td><button class="btn btn-outline-danger">Delete</button></td>
+                </tr>
+                </tbody>
+              </table>
+              <div class="table-pagination container col-3">
+              <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item disabled">
+                    <span class="page-link">Previous</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <span class="page-link">2</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer-container">
+        <div class="footer-img">
+          <img src="\images\site-logo.svg" alt="footer-logo" />
+        </div>
+        <div class="footer-text">
+          &copy; 2022 Tatvasoft.com. All rights reserved.
+        </div>
+      </footer>  
+    </body>
+</html>
